@@ -84,5 +84,10 @@ python3 -V > runtime
 ```
 ## 11. Indexar los archivos creados con git
 
+```bash
+git add .
+git commit -m "UPDATED"
+git push -u origin main
+```
 
 
