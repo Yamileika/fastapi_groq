@@ -82,4 +82,7 @@ pip freeze > requiremets.txt
 ```bash
 python3 -V > runtime
 ```
+## 11. Indexar los archivos creados con git
+
+
 
