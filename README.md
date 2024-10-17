@@ -67,6 +67,7 @@ Para este proyecto se usaran las librerias de [FastAPI](https://fastapi.tiangolo
 
 ```bash
 pip install "fastapi[standard]"
+pip install groq
 ```
 
 ## 9. Crear el archivo requirements.txt
@@ -82,7 +83,17 @@ pip freeze > requiremets.txt
 ```bash
 python3 -V > runtime
 ```
-## 11. Indexar los archivos creados con git
+## 11. API_KEY de GROQ
+```bash
+export GROQ_API_KEY="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"
+```
+
+## 12. Ejecutar el servidor
+```bash
+fastapi dev main.py
+```
+
+## 13. Indexar los archivos creados con git
 
 ```bash
 git add .
